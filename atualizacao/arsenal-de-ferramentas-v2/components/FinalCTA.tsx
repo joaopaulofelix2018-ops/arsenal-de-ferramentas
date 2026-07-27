@@ -1,0 +1,3 @@
+import { ArrowRight } from "lucide-react";
+import { WHATSAPP_LINK } from "@/lib/constants";
+export default function FinalCTA(){return <section className="bg-[#FFC107] px-4 py-20 text-center text-black sm:px-6"><h2 className="mx-auto max-w-3xl text-4xl font-black sm:text-5xl">Entre agora no Arsenal de Ferramentas</h2><p className="mx-auto mt-4 max-w-xl text-black/75">Receba as melhores promoções de ferramentas diretamente no WhatsApp.</p><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-black px-8 py-5 font-black text-white transition hover:-translate-y-1">Entrar no Grupo VIP <ArrowRight size={20}/></a></section>}
