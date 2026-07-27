@@ -1,0 +1,3 @@
+import { MessageCircle } from "lucide-react";
+import { WHATSAPP_LINK } from "@/lib/constants";
+export default function WhatsAppButton(){return <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" aria-label="Entrar no grupo VIP pelo WhatsApp" className="fixed bottom-4 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-2xl transition hover:scale-105 sm:bottom-6 sm:right-6 sm:h-auto sm:w-auto sm:gap-2 sm:px-5 sm:py-4"><MessageCircle fill="currentColor"/><span className="hidden font-black sm:inline">Entrar no grupo</span></a>}
